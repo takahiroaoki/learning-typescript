@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  playground:
+    image: node:16.16.0
+    volumes:
+      - ./src:/src
+    working_dir: /src
+    tty: true
